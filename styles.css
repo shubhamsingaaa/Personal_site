@@ -1,0 +1,171 @@
+/* Following are Body Elements */
+body {
+  color: #40514e;
+  margin: 0;
+  /* we can use these Following to Seperate style that Margin.  */
+  /* margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px; */
+  text-align: center;
+  font-family: "Merriweather", serif;
+  /* font-size: 2000%; */
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border-style: dotted;
+  border-color: #c1d5a4;
+  border-width: 6px;
+  border-bottom: none;
+  width: 5%;
+  margin: 100px auto;
+}
+
+h1 {
+  color: #66bfbf;
+  font-size: 5.62rem;
+  /* width: 10%; */
+  margin: 50px auto 0 auto; /* the 50px is For Top and auto For Right 0 for Bottom and auto is For Left */
+  font-family: "Sacramento", cursive;
+}
+
+h2 {
+  color: #66bfbf;
+  font-size: 2.5rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+}
+a {
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover {
+  color: #eaf6f6;
+}
+
+/* Following are Class Elements */
+
+.pro {
+  text-decoration: underline;
+}
+.top_container {
+  margin: 0;
+  background-color: #e4f9f5;
+  position: relative;
+  padding-top: 80px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 250px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  bottom: 300px;
+  left: 250px;
+}
+
+.mountain {
+  margin: 0;
+  position: relative;
+}
+.intro {
+  margin: auto;
+  width: 30%;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 50px 0 16px;
+}
+
+.profile-picture {
+  height: 150px;
+  width: 150px;
+}
+.skill-row {
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: left;
+}
+
+.designer-image {
+  margin-right: 30px;
+  width: 25%;
+  float: left;
+}
+
+.programming-image {
+  margin-left: 30px;
+  width: 25%;
+  float: right;
+}
+
+.interest {
+  width: 40%;
+  margin: 40px auto 60px; /* Here 40px is For top, auto is For Left and Right and 60px is for Bottom Margin. */
+}
+
+/* 
+.designer-discription {
+  clear: left;
+}
+.programming-description {
+  clear: right;
+} 
+*/
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 9px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.bottom_container {
+  margin: 0;
+}
+
+.copyright {
+  color: #eaf6f6;
+  font-size: 0.8rem;
+  padding: 20px 0;
+  margin-bottom: 0;
+}
